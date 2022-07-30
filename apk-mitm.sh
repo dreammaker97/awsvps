@@ -1,6 +1,6 @@
-apt-get install default-jdk
+sudo apt-get install default-jdk
 sudo apt update
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 nvm --version
 nvm ls
