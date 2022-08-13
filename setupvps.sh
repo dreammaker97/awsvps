@@ -8,6 +8,6 @@ sudo apt-get install docker-ce
 sudo apt install docker-compose
 sudo apt install tree
 sudo apt install nmap
-sudo git clone https://github.com/dreammaker97/portainer
-sudo cd portainer
+git clone https://github.com/dreammaker97/portainer
+cd portainer
 sudo docker-compose up
